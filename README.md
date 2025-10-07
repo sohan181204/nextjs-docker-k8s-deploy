@@ -117,8 +117,6 @@ http://127.0.0.1:<tunnel-port>
 
 ## Screenshots
 
-*(Add screenshots here after running the app in Minikube)*
-
 * Homepage:
   ![Homepage](screenshots/homepage.png)
 
