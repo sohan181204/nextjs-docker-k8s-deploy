@@ -33,19 +33,24 @@ This project demonstrates how to deploy a **Next.js application** using **Docker
 ```
 
 nextjs-docker-k8s-deploy/
-├── .github/
+├── .github/workflows/docker-build.yml
 ├── .next/
 ├── k8s/
 │   ├── deployment.yaml              
 │   └── service.yaml           
 ├── node_modules/
-├── public/
-│   └── favicon.ico
+├── public/ 
+│   |── file.svg
+|   └── globe.svg
+|   └── next.svg
+|   └── vercel.svg
+|   └── window.svg
 ├── src/
 │   ├── pages/
-│   │   ├── index.tsx
-│   │   └── _app.tsx
-│   └── components/               # Optional (if you add UI components)
+│       |── favicon.ico
+│       └── globals.css
+|       └── layout.tsx
+|       └── page.tsx
 ├── screenshots/
 │   ├── Homepage.png              # App running in browser
 │   └── Minikube_output.png       # Terminal output showing successful deployment
