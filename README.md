@@ -118,10 +118,10 @@ http://127.0.0.1:<tunnel-port>
 ## Screenshots
 
 * Homepage:
-  ![Homepage](screenshots/homepage.png)
+  ![Homepage](Screenshots/Homepage.png)
 
-* Application running in browser:
-  ![Browser View](screenshots/browser-view.png)
+* Minikube_output:
+  ![Minikube_output](Screenshots/Minikube_output)
 
 ---
 
@@ -162,9 +162,3 @@ kubectl apply -f k8s/k8s.yaml
 
 ```
 
----
-
-If you want, I can also **write the combined `k8s.yaml`** for your project so you don’t need separate deployment and service files. This will make your Kubernetes setup much simpler.  
-
-Do you want me to create that `k8s.yaml`?
-```
