@@ -33,14 +33,33 @@ This project demonstrates how to deploy a **Next.js application** using **Docker
 ```
 
 nextjs-docker-k8s-deploy/
+├── .github/
+├── .next/
 ├── k8s/
-│   └── k8s.yaml         # Combined deployment + service
-├── pages/
+│   ├── deployment.yaml              
+│   └── service.yaml           
+├── node_modules/
 ├── public/
-├── package.json
-├── package-lock.json
+│   └── favicon.ico
+├── src/
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   └── _app.tsx
+│   └── components/               # Optional (if you add UI components)
+├── screenshots/
+│   ├── Homepage.png              # App running in browser
+│   └── Minikube_output.png       # Terminal output showing successful deployment
+├── .gitignore
 ├── Dockerfile
-└── README.md
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+
 
 ````
 
@@ -115,13 +134,13 @@ http://127.0.0.1:<tunnel-port>
 
 ---
 
-## Screenshots
+## Screenshot
 
 * Homepage:
-  ![Homepage](Screenshots/Homepage.png)
+  ![Homepage](Screenshot/Homepage.png)
 
 * Minikube_output:
-  ![Minikube_output](Screenshots/Minikube_output)
+  ![Minikube_output](Screenshot/Minikube_output.png)
 
 ---
 
