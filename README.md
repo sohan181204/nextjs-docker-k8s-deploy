@@ -184,5 +184,3 @@ kubectl apply -f k8s/k8s.yaml
 * GitHub: [sohan181204](https://github.com/sohan181204)
 * LinkedIn: [Miryala Sohan Kumar](https://www.linkedin.com/in/miryala-sohan-kumar-5642a626a/)
 
-```
-
